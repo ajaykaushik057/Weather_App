@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./bootsrap/css/bootstrap.css" rel="stylesheet">
+    <title>Weather</title>
+    <style>
+      body{
+        background-image: url(./tom-barrett-hgGplX3PFBg-unsplash.jpg);
+        background-size: cover;
+      }
+      .card{
+        background: #00000047;
+        border: 1px solid rgba(255, 255, 255, 0.452);
+      }
+    </style>
+</head>
+
+<body class="container text-white  bg-dark">
+
+    <section class="vh-100 ">
+        <div class="container py-5 h-100">
+      
+          <div class="row d-flex justify-content-center align-items-center h-100 ">
+            <div class="col-md-8 col-lg-6 col-xl-4 ">
+      
+              <h3 class="mb-4 pb-2 fw-normal ">Check the Weather forecast</h3>
+              <div class=" searchbox input-group rounded mb-3 ">
+                <input type="search" class="form-control rounded" placeholder=" Enter Your City" />
+                  <span class=" searchbutton border-0 fw-bold btn btn-danger" id="search-addon">
+                    Check!
+                  </span>
+               
+            </div>
+              <div class="card shadow-0 p-3 mb-2  text-white">
+                <div class=" weather card-body p-4">
+                  
+                  <h4 class=" city mb-1 sfw-normal">New York, US</h4>
+                  <p class="  mb-2">Current temperature: <strong class="temp">5.42°C</strong></p>
+                  <p>Humidity: <strong class="humidity">50%</strong></p>
+                  <p class="" >Wind Speed: <strong class="speed">34Km/hr</strong></p>
+      
+                </div>
+              </div>
+      
+            </div>
+          </div>
+      
+        </div>
+      </section>
+    
+</body>
+<script src="./script.js"></script>
+</html>
